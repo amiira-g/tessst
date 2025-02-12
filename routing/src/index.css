@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center{
+  @apply flex justify-between items-center
+}
+.active{
+  background: #1abc9c;
+  border-radius: 6px;
+}
+@layer base {
+  html, body {
+    @apply h-full overflow-auto;
+  }
+}
